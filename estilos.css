@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(
+  90deg,
+  rgba(14, 165, 9, 0.753) 10%,
+  rgba(190, 18, 18, 0.815) 35%,
+  rgb(238, 206, 206) 100%
+)
+}
+h1 {
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em rebeccapurple;
+    
+}
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  
+  
+}
+p {
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em white;
+  
+}
+#subtitulo {
+    font-size: 60px;
+    text-align: center;
+}
+
+#mais {
+  display:none;
+  
+
+
+}
+a {
+  font-size: 40px;
+  opacity: 0.5;
+  color: blue;
+  
+}
+
+
+a:hover {
+  opacity: 1;
+  color: black;
+
+}
+
+.tituloart {
+  font-size: 39px;
+  text-align: center;
+}
+img {
+  height: 150px;
+  width: 190px;
+  align-items: center;
+  
+}
+
+
+
+#voltaraotopo{
+  
+  background-color: white;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 45px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+
+}
+
+#voltaraotopo {
+  position: fixed;
+  right: 15px;
+    bottom: 15px;
+}
